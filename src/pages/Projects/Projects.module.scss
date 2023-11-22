@@ -1,0 +1,23 @@
+.heading {
+  padding: 0 15px;
+  margin-bottom: 40px;
+
+  h2 {
+    color: var(--text-black-900);
+    font-weight: 500;
+  }
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 30px;
+
+  @media (max-width: 991px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (max-width: 767px) {
+    grid-template-columns: 1fr;
+  }
+}

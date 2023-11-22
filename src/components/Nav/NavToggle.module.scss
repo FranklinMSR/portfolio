@@ -1,0 +1,73 @@
+.navToggle {
+  height: 40px;
+  width: 45px;
+  border: 1px solid var(--bg-black-50);
+  cursor: pointer;
+  position: fixed;
+  left: 45px;
+  top: 20px;
+  border-radius: 5px;
+  display: none;
+  background-color: var(--bg-black-100);
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+
+  @media (max-width: 1200px) {
+    display: flex;
+    position: fixed;
+
+    &.active {
+      display: flex;
+      left: 315px;
+
+      span {
+        height: 0;
+
+        &::before {
+          top: 0;
+          transform: rotate(-45deg);
+        }
+
+        &::after {
+          top: 0;
+          transform: rotate(45deg);
+        }
+      }
+    }
+  }
+
+  @media (max-width: 425px) {
+    &.active {
+      left: 80%;
+    }
+  }
+
+  span {
+    width: 18px;
+    height: 2px;
+    background-color: var(--skin-color);
+    display: inline-block;
+    position: relative;
+
+    &::before {
+      content: "";
+      width: 18px;
+      height: 2px;
+      background-color: var(--skin-color);
+      position: absolute;
+      top: -6px;
+      left: 0;
+    }
+
+    &::after {
+      content: "";
+      width: 18px;
+      height: 2px;
+      background-color: var(--skin-color);
+      position: absolute;
+      top: 6px;
+      right: 0;
+    }
+  }
+}
