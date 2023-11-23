@@ -8,19 +8,19 @@ import Title from "../../components/Title/Title";
 
 export default function About() {
   const skills = [
-    { skill: "HTML5", progress: "95%" },
-    { skill: "CSS3", progress: "95%" },
-    { skill: "TailwindCSS", progress: "80%" },
-    { skill: "JavaScript", progress: "90%" },
+    { skill: "HTML5", progress: "90%" },
+    { skill: "CSS3", progress: "80%" },
+    { skill: "Tailwind CSS", progress: "80%" },
+    { skill: "JavaScript", progress: "80%" },
     { skill: "Git", progress: "80%" },
-    { skill: "Github", progress: "80%" },
-    { skill: "React.JS", progress: "90%" },
+    { skill: "Inglês Técnico", progress: "60%" },
+    { skill: "React.JS", progress: "80%" },
     { skill: "TypeScript", progress: "70%" },
     { skill: "Spring Boot", progress: "50%" },
     { skill: "Node.JS", progress: "70%" },
     { skill: "Java", progress: "65%" },
     { skill: "Python", progress: "60%" },
-    {skill: "Inteligência Artificial", progress: "60%"}
+    { skill: "Inteligência Artificial", progress: "60%"}
   ];
 
   skills.sort((a, b) => {
@@ -46,11 +46,24 @@ export default function About() {
                   Me chamo Franklin Marden e sou <span>Desenvolvedor Web Full Stack</span>
                 </h3>
                 <p>
-                Atuo em projetos com linguagens de programação JavaScript, TypeScript, framework Node.js, consumo de API's, integração de IA em aplicações, desenvolvimento front-end com React.js/HTML5/CSS3 e outras ferramentas, comunicação cliente/servidor/banco de dados, gerenciamento de código com GIT, conhecimento de Back End Java 17, Maven, Lombok, framework Spring Boot, API Rest, Docker, automação de tarefas e análise de dados com Python, gerenciamento de web site e redes socias, ferramentas Adobe na criação de material para divulgação.
+                  Atuo em projetos que envolvem linguagens de programação JavaScript e TypeScript, framework Node.js, consumo de APIs, integração de IA em aplicações, desenvolvimento front-end utilizando React.js/HTML5/CSS3/Talwind CSS e outras ferramentas, comunicação entre cliente, servidor e banco de dados, gerenciamento de código com Git, conhecimento de Back End em Java 17, Maven, Lombok e framework Spring Boot, APIs Rest, Docker, automação de tarefas e análise de dados com Python. Além disso, tenho experiência em gerenciamento de websites e redes sociais, utilização de ferramentas da Adobe para criação de materiais de divulgação.  
                 </p>
                 <br />
                 <p>
-                Atuei nos setores de vendas, comércio próprio, familiar e uma grande rede varejista, tendo experiências com atendimento, rotinas administrativas, habilidades e técnicas de comunicação e negociação.
+                  Atuei nos setores de vendas, comércio próprio, familiar e uma grande rede varejista, tendo experiências com atendimento, rotinas administrativas, habilidades e técnicas de comunicação e negociação.
+                </p>
+                <br />
+                <p>
+                  Desde setembro de 2022, tenho dedicado completamente meu tempo e minhas energias aos estudos e projetos na área de desenvolvimento, especialmente no âmbito web full stack. As adversidades da vida me desenvolveram habilidades de flexibilidade e resiliência diante das situações. Em certo momento, vi-me diante da necessidade de sobrevivência, de ter uma renda, um emprego e ajudar minha família, como qualquer pessoa comum. Com isso, atuei nos setores de vendas, lidando constantemente com o público, enfrentando pressão para alcançar metas, e trabalhando nos processos de pré-venda e pós-venda com clientes. Essa experiência me beneficiou com algumas soft skills, como comunicação, negociação e trabalho em equipe. 
+                </p>
+                <br />
+                <p>
+                  Na infância, sempre me interessei por tecnologias como computadores e videogames. Ter acesso a eles cedo foi impactante e influenciou diretamente minha trajetória. Essa familiaridade precoce despertou uma grande curiosidade em mim, fazendo com que eu sempre desejasse entender o funcionamento por trás de tudo. Cada jogo na tela ou aplicativo com recursos interessantes despertava minha vontade de compreender como eram criados, ainda adolescente realizei meus primeiros trabalhos instalando sistemas operacionais, jogos, manutenções no geral em computadores de colegas de escola, amigos e outras pessoas que me procuravam pelo serviço. 
+                </p>
+
+                <br />
+                <p>
+                  Em minha vida particular eu aprecio a companhia da minha família e amigos nos momentos de lazer e descontração. Além disso, tenho interesse por esportes em geral, principalmente futebol, que pratico regularmente. Meus hobbies incluem a pesca e o aquarismo. Também me divirto com jogos de computador, como simuladores de voo, MMORPGs, FPS e E-Sports. Sempre que necessito de uma pausa na minha rotina, gosto de me distrair e me divertir praticando alguma dessas atividades.
                 </p>
 
               </div>
@@ -105,7 +118,7 @@ export default function About() {
 
             <div className={styles.row}>
               <div className={styles.education}>
-                <h3 className={styles.title}>Educação</h3>
+                <h3 className={styles.title}>Informações Acadêmicas</h3>
                 <div className={styles.row}>
                   <div className={styles.timeline}>
                     <TimelineItem
@@ -126,6 +139,26 @@ export default function About() {
                       text="Automação de processos industriais de produção, programação de máquinas CAD/CAM, instrumentos de medição e precisão, softwares de engenharia, metrologia, operação e manutenção de máquinas industriais controladas por computador com comando numérico CNC."
                     />
 
+                  <br />
+                   <div>
+                      
+                      <hr /> <br />
+                      
+                      <h3>Certificados:</h3>
+                      <br />
+                      <h4>(IA para desenvolvedores)</h4>
+                      <h5>Rocketseat - 2023</h5>
+                      <br />
+                      <p>inteligência artificial em programação que inclui, aplicação e integração de IA em projetos JavaScript e TypeScript.</p>
+                      <br />
+                      <h4>(Java 17 e Spring Boot)</h4>
+                      <h5>Rocketseat - 2023</h5>
+                      <br />
+                      <p>Desenvolvimento de uma aplicação back-end em Java; Maven; Spring Boot; API Rest; Lombok; Integração com H2 Database Engine; Implementando segurança nos dados do usuário; Tratamento de Exceções e Deploy do back-end.</p>
+
+
+                   </div>
+  
                   </div>
                 </div>
               </div>
