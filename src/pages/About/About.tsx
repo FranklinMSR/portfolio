@@ -49,7 +49,7 @@ export default function About() {
                   Atuo em projetos de desenvolvimento JavaScript e TypeScript,
                   framework Node.js, consumo de APIs, integração de IA em
                   aplicações, desenvolvimento front-end utilizando React.js,
-                  HTML5, CSS3, Talwind CSS e outras ferramentas, comunicação
+                  HTML5, CSS3, Tailwind CSS e outras ferramentas, comunicação
                   entre cliente, servidor e banco de dados, gerenciamento de
                   código com Git, conhecimento de Back End em Java 17, Maven,
                   Lombok e framework Spring Boot, APIs Rest, Docker, automação
