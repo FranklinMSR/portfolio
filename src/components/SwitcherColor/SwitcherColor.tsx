@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./SwitcherColor.module.scss";
 
-import color1 from "../../styles/themes/color1.module.scss";
+//import color1 from "../../styles/themes/color1.module.scss";
 import color2 from "../../styles/themes/color2.module.scss";
 import color3 from "../../styles/themes/color3.module.scss";
 import color4 from "../../styles/themes/color4.module.scss";
@@ -13,7 +13,7 @@ type ColorModule = {
 };
 
 const colors: ColorModule[] = [
-  { name: "color1", default: { color: color1.color } },
+  
   { name: "color2", default: { color: color2.color } },
   { name: "color3", default: { color: color3.color } },
   { name: "color4", default: { color: color4.color } },

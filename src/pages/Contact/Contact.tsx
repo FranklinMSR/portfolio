@@ -105,8 +105,8 @@ export default function Contact() {
           />
         </div>
 
-        <h3 className={styles.title}>Me mande um email</h3>
-        <h4 className={styles.subtitle}>Minha resposta será rápida.</h4>
+        <h3 className={styles.title}>Me mande um e-mail</h3>
+        <h4 className={styles.subtitle}>Minha resposta será rápida!</h4>
 
         <div className={styles.row}>
           <form className={styles.form} onSubmit={handleSubmit}>

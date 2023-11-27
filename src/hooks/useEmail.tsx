@@ -26,10 +26,10 @@ const useEmail = () => {
 
     try {
       await emailjs.send(
-        "service_kbmlnav",
-        "template_pu73bpu",
+        "service_pp1t4vm",
+        "template_1hujfwl",
         templateParams,
-        "8MoajfaFVwn0NMxad",
+        "yJMwYiHsrxJByuRF2",
       );
       setError(null);
     } catch (error) {

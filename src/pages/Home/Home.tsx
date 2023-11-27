@@ -13,8 +13,8 @@ export default function Home() {
           presentation="Olá, meu nome é"
           name="Franklin Marden"
           profession="E sou"
-          jobs={["Desenvolvedor Web Full Stack"]}
-          description=" Nos últimos anos tenho dedicado meu tempo em projetos que envolvem o desenvolvimento de aplicações web nas linguagens JavaScript, TypeScript, framework Node.js, consumo de API's, integração de IA em aplicações, comunicação entre cliente, servidor e banco de dados, análise de dados e automação de tarefas em Python e outras atividades relacionadas."
+          jobs={["Desenvolvedor Full Stack"]}
+          description=" Nos últimos anos tenho dedicado meu tempo e foco em projetos de desenvolvimento de aplicações web JavaScript, TypeScript, framework Node.js, consumo de API's, integração de IA em aplicações, comunicação entre cliente, servidor e banco de dados, análise de dados e automação de tarefas com Python."
           buttonHref="contact"
           buttonText="Entrar em contato"
           photo={photo}

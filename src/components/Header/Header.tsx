@@ -11,7 +11,7 @@ export default function Header() {
     <header
       className={`${styles.header} ${openHeader ? `${styles.active}` : ""}`}
     >
-      <Logo emphasis="" title="Área Tech"/>
+      <Logo emphasis="D" title="ev room"/>
       <NavToggle openHeader={openHeader} setOpenHeader={setOpenHeader} />
       <NavMenu
         Title={["Inicio", "Sobre", "Serviços", "Projetos", "Contato"]}
