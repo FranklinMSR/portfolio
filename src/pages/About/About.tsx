@@ -62,11 +62,10 @@ export default function About() {
                 <p>
                   Atuei nos setores de vendas, comércio familiar e uma grande
                   rede varejista, tendo experiências com atendimento, rotinas
-                  administrativas e negociação. Em 2017 diante da necessidade
-                  imediata de obter uma renda, e recém-chegado em uma nova
-                  cidade, abracei uma oportunidade de atuar na área de vendas,
+                  administrativas e negociação. Dada a urgência de garantir uma renda para suprir necessidades básicas, e recém-chegado em uma nova
+                  cidade, aceitei o desafio de atuar no setor de vendas,
                   lidando constantemente com o público, pressão para vender e
-                  alcançar metas, trabalhando no pré e pós-venda de clientes.
+                  alcançar metas.
                   Essas experiências e adversidades me beneficiaram com algumas
                   soft skills, como flexibilidade, resiliência, comunicação,
                   trabalho em equipe e cooperação.
@@ -179,7 +178,7 @@ export default function About() {
                       location=""
                       city="Faculdade Estácio / Curitiba - PR"
                       title="(Análise e Desenvolvimento de Sistemas)"
-                      subtitle="Tecnólogo"
+                      subtitle="Graduação Tecnológica"
                       text="Linguagem e lógica de programação, redes de computadores, segurança da informação, desenvolvimentos de aplicações web, mobile e desktop, design de interfaces, inteligência artificial e machine learning, infraestrutura e banco de dados, sistemas operacionais, engenharia e arquitetura de softwares, análise de dados."
                     />
 
@@ -188,7 +187,7 @@ export default function About() {
                       location=""
                       city="Fundação Educacional Montes Claros - FEMC / Montes Claros - MG"
                       title="(Mecânica e Automação Industrial)"
-                      subtitle="Tecnólogo"
+                      subtitle="Graduação Tecnológica"
                       text="Automação de processos industriais de produção, programação de máquinas CAD/CAM, instrumentos de medição e precisão, softwares de engenharia, metrologia, operação e manutenção de máquinas industriais controladas por computador com comando numérico CNC."
                     />
                   </div>
