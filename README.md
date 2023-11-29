@@ -5,7 +5,7 @@
 
 ## 📄 Descrição
 
-Meu portfólio nomeado como Área Tech. Utilizei React, Typescript e SASS, me dando uma ótima oportunidade para aplicar meus conhecimentos adquiridos.
+Meu portfólio nomeado como Dev Room. Utilizei React, Typescript e SASS, me dando uma ótima oportunidade para aplicar meus conhecimentos adquiridos.
 
 ### <a href="">Acesse o portfólio</a>
 
