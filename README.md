@@ -1,5 +1,5 @@
 # Portfólio
-![Badge](http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge)             
+![Badge](https://img.shields.io/static/v1?label=STATUS&message=IMPLEMENTANDO&color=GREEN&style=for-the-badge)             
 
 <img src="">
 
